@@ -1,0 +1,10 @@
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\bin\Debug\Yazılım_yapımı_proje.exe.config
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\bin\Debug\Yazılım_yapımı_proje.exe
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\bin\Debug\Yazılım_yapımı_proje.pdb
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.csproj.AssemblyReference.cache
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.Form1.resources
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.Properties.Resources.resources
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.csproj.GenerateResource.cache
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.csproj.CoreCompileInputs.cache
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.exe
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.pdb
