@@ -34,6 +34,7 @@ namespace Yazılım_yapımı_proje
             this.label2 = new System.Windows.Forms.Label();
             this.btn_ogrEkran_sinavaGir = new System.Windows.Forms.Button();
             this.btn_ogrEkran_sonucGor = new System.Windows.Forms.Button();
+            this.btn_ayarlar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -74,12 +75,23 @@ namespace Yazılım_yapımı_proje
             // 
             this.btn_ogrEkran_sonucGor.BackColor = System.Drawing.Color.Gold;
             this.btn_ogrEkran_sonucGor.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
-            this.btn_ogrEkran_sonucGor.Location = new System.Drawing.Point(305, 363);
+            this.btn_ogrEkran_sonucGor.Location = new System.Drawing.Point(309, 345);
             this.btn_ogrEkran_sonucGor.Name = "btn_ogrEkran_sonucGor";
             this.btn_ogrEkran_sonucGor.Size = new System.Drawing.Size(249, 43);
             this.btn_ogrEkran_sonucGor.TabIndex = 4;
             this.btn_ogrEkran_sonucGor.Text = "Sonuçları Görüntüle";
             this.btn_ogrEkran_sonucGor.UseVisualStyleBackColor = false;
+            // 
+            // btn_ayarlar
+            // 
+            this.btn_ayarlar.BackColor = System.Drawing.Color.Gold;
+            this.btn_ayarlar.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
+            this.btn_ayarlar.Location = new System.Drawing.Point(339, 450);
+            this.btn_ayarlar.Name = "btn_ayarlar";
+            this.btn_ayarlar.Size = new System.Drawing.Size(183, 43);
+            this.btn_ayarlar.TabIndex = 5;
+            this.btn_ayarlar.Text = "Ayarlar";
+            this.btn_ayarlar.UseVisualStyleBackColor = false;
             // 
             // Ogrenci_Giris_Ekrani
             // 
@@ -89,6 +101,7 @@ namespace Yazılım_yapımı_proje
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(921, 608);
+            this.Controls.Add(this.btn_ayarlar);
             this.Controls.Add(this.btn_ogrEkran_sonucGor);
             this.Controls.Add(this.btn_ogrEkran_sinavaGir);
             this.Controls.Add(this.label2);
@@ -106,5 +119,6 @@ namespace Yazılım_yapımı_proje
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_ogrEkran_sinavaGir;
         private System.Windows.Forms.Button btn_ogrEkran_sonucGor;
+        private System.Windows.Forms.Button btn_ayarlar;
     }
 }
