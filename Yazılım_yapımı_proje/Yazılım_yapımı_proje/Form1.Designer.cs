@@ -35,25 +35,27 @@ namespace Yazılım_yapımı_proje
             this.rdiobtn_girisYap = new System.Windows.Forms.RadioButton();
             this.rdiobtn_kayitOl = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.grpbx_girisYap = new System.Windows.Forms.GroupBox();
             this.grpbx_kayitOl = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txt_giris_kullaniciAd = new System.Windows.Forms.TextBox();
-            this.txt_giris_sifre = new System.Windows.Forms.TextBox();
-            this.btn_girisYap = new System.Windows.Forms.Button();
+            this.txt_kayitOl_soyad = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.rdiotbn_kayitOl_ogrenci = new System.Windows.Forms.RadioButton();
+            this.rdiobtn_kayitOl_sinavSorum = new System.Windows.Forms.RadioButton();
             this.btn_kayitOl = new System.Windows.Forms.Button();
             this.txt_kayitOl_sifre = new System.Windows.Forms.TextBox();
             this.txt_kayitOl_ad = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.rdiobtn_kayitOl_sinavSorum = new System.Windows.Forms.RadioButton();
-            this.rdiotbn_kayitOl_ogrenci = new System.Windows.Forms.RadioButton();
-            this.txt_kayitOl_soyad = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.grpbx_girisYap = new System.Windows.Forms.GroupBox();
+            this.btn_girisYap = new System.Windows.Forms.Button();
+            this.txt_giris_sifre = new System.Windows.Forms.TextBox();
+            this.txt_giris_kullaniciAd = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.rdiobtn_girisYap_ogrenci = new System.Windows.Forms.RadioButton();
+            this.rdiobtn_girisYap_sinavSor = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
-            this.grpbx_girisYap.SuspendLayout();
             this.grpbx_kayitOl.SuspendLayout();
+            this.grpbx_girisYap.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -114,21 +116,6 @@ namespace Yazılım_yapımı_proje
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             // 
-            // grpbx_girisYap
-            // 
-            this.grpbx_girisYap.BackColor = System.Drawing.Color.LightYellow;
-            this.grpbx_girisYap.Controls.Add(this.btn_girisYap);
-            this.grpbx_girisYap.Controls.Add(this.txt_giris_sifre);
-            this.grpbx_girisYap.Controls.Add(this.txt_giris_kullaniciAd);
-            this.grpbx_girisYap.Controls.Add(this.label4);
-            this.grpbx_girisYap.Controls.Add(this.label3);
-            this.grpbx_girisYap.Location = new System.Drawing.Point(46, 92);
-            this.grpbx_girisYap.Name = "grpbx_girisYap";
-            this.grpbx_girisYap.Size = new System.Drawing.Size(342, 309);
-            this.grpbx_girisYap.TabIndex = 4;
-            this.grpbx_girisYap.TabStop = false;
-            this.grpbx_girisYap.Visible = false;
-            // 
             // grpbx_kayitOl
             // 
             this.grpbx_kayitOl.BackColor = System.Drawing.Color.LightYellow;
@@ -148,51 +135,47 @@ namespace Yazılım_yapımı_proje
             this.grpbx_kayitOl.TabStop = false;
             this.grpbx_kayitOl.Visible = false;
             // 
-            // label3
+            // txt_kayitOl_soyad
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(6, 68);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 19);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Kullanıcı Adı:";
+            this.txt_kayitOl_soyad.Location = new System.Drawing.Point(137, 151);
+            this.txt_kayitOl_soyad.Name = "txt_kayitOl_soyad";
+            this.txt_kayitOl_soyad.Size = new System.Drawing.Size(155, 22);
+            this.txt_kayitOl_soyad.TabIndex = 13;
             // 
-            // label4
+            // label7
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(62, 125);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 19);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Şifre:";
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(61, 154);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(60, 19);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Soyadı:";
             // 
-            // txt_giris_kullaniciAd
+            // rdiotbn_kayitOl_ogrenci
             // 
-            this.txt_giris_kullaniciAd.Location = new System.Drawing.Point(132, 68);
-            this.txt_giris_kullaniciAd.Name = "txt_giris_kullaniciAd";
-            this.txt_giris_kullaniciAd.Size = new System.Drawing.Size(155, 22);
-            this.txt_giris_kullaniciAd.TabIndex = 2;
+            this.rdiotbn_kayitOl_ogrenci.AutoSize = true;
+            this.rdiotbn_kayitOl_ogrenci.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rdiotbn_kayitOl_ogrenci.Location = new System.Drawing.Point(218, 44);
+            this.rdiotbn_kayitOl_ogrenci.Name = "rdiotbn_kayitOl_ogrenci";
+            this.rdiotbn_kayitOl_ogrenci.Size = new System.Drawing.Size(91, 23);
+            this.rdiotbn_kayitOl_ogrenci.TabIndex = 11;
+            this.rdiotbn_kayitOl_ogrenci.TabStop = true;
+            this.rdiotbn_kayitOl_ogrenci.Text = "Öğrenci";
+            this.rdiotbn_kayitOl_ogrenci.UseVisualStyleBackColor = true;
             // 
-            // txt_giris_sifre
+            // rdiobtn_kayitOl_sinavSorum
             // 
-            this.txt_giris_sifre.Location = new System.Drawing.Point(132, 124);
-            this.txt_giris_sifre.Name = "txt_giris_sifre";
-            this.txt_giris_sifre.Size = new System.Drawing.Size(155, 22);
-            this.txt_giris_sifre.TabIndex = 3;
-            // 
-            // btn_girisYap
-            // 
-            this.btn_girisYap.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_girisYap.Location = new System.Drawing.Point(108, 198);
-            this.btn_girisYap.Name = "btn_girisYap";
-            this.btn_girisYap.Size = new System.Drawing.Size(127, 39);
-            this.btn_girisYap.TabIndex = 4;
-            this.btn_girisYap.Text = "Giriş Yap";
-            this.btn_girisYap.UseVisualStyleBackColor = true;
+            this.rdiobtn_kayitOl_sinavSorum.AutoSize = true;
+            this.rdiobtn_kayitOl_sinavSorum.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rdiobtn_kayitOl_sinavSorum.Location = new System.Drawing.Point(16, 44);
+            this.rdiobtn_kayitOl_sinavSorum.Name = "rdiobtn_kayitOl_sinavSorum";
+            this.rdiobtn_kayitOl_sinavSorum.Size = new System.Drawing.Size(154, 23);
+            this.rdiobtn_kayitOl_sinavSorum.TabIndex = 10;
+            this.rdiobtn_kayitOl_sinavSorum.TabStop = true;
+            this.rdiobtn_kayitOl_sinavSorum.Text = "Sınav Sorumlusu";
+            this.rdiobtn_kayitOl_sinavSorum.UseVisualStyleBackColor = true;
             // 
             // btn_kayitOl
             // 
@@ -240,53 +223,98 @@ namespace Yazılım_yapımı_proje
             this.label6.TabIndex = 5;
             this.label6.Text = "Adı:";
             // 
-            // rdiobtn_kayitOl_sinavSorum
+            // grpbx_girisYap
             // 
-            this.rdiobtn_kayitOl_sinavSorum.AutoSize = true;
-            this.rdiobtn_kayitOl_sinavSorum.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdiobtn_kayitOl_sinavSorum.Location = new System.Drawing.Point(16, 44);
-            this.rdiobtn_kayitOl_sinavSorum.Name = "rdiobtn_kayitOl_sinavSorum";
-            this.rdiobtn_kayitOl_sinavSorum.Size = new System.Drawing.Size(154, 23);
-            this.rdiobtn_kayitOl_sinavSorum.TabIndex = 10;
-            this.rdiobtn_kayitOl_sinavSorum.TabStop = true;
-            this.rdiobtn_kayitOl_sinavSorum.Text = "Sınav Sorumlusu";
-            this.rdiobtn_kayitOl_sinavSorum.UseVisualStyleBackColor = true;
+            this.grpbx_girisYap.BackColor = System.Drawing.Color.LightYellow;
+            this.grpbx_girisYap.Controls.Add(this.rdiobtn_girisYap_ogrenci);
+            this.grpbx_girisYap.Controls.Add(this.rdiobtn_girisYap_sinavSor);
+            this.grpbx_girisYap.Controls.Add(this.btn_girisYap);
+            this.grpbx_girisYap.Controls.Add(this.txt_giris_sifre);
+            this.grpbx_girisYap.Controls.Add(this.txt_giris_kullaniciAd);
+            this.grpbx_girisYap.Controls.Add(this.label4);
+            this.grpbx_girisYap.Controls.Add(this.label3);
+            this.grpbx_girisYap.Location = new System.Drawing.Point(46, 92);
+            this.grpbx_girisYap.Name = "grpbx_girisYap";
+            this.grpbx_girisYap.Size = new System.Drawing.Size(342, 309);
+            this.grpbx_girisYap.TabIndex = 4;
+            this.grpbx_girisYap.TabStop = false;
+            this.grpbx_girisYap.Visible = false;
             // 
-            // rdiotbn_kayitOl_ogrenci
+            // btn_girisYap
             // 
-            this.rdiotbn_kayitOl_ogrenci.AutoSize = true;
-            this.rdiotbn_kayitOl_ogrenci.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdiotbn_kayitOl_ogrenci.Location = new System.Drawing.Point(218, 44);
-            this.rdiotbn_kayitOl_ogrenci.Name = "rdiotbn_kayitOl_ogrenci";
-            this.rdiotbn_kayitOl_ogrenci.Size = new System.Drawing.Size(91, 23);
-            this.rdiotbn_kayitOl_ogrenci.TabIndex = 11;
-            this.rdiotbn_kayitOl_ogrenci.TabStop = true;
-            this.rdiotbn_kayitOl_ogrenci.Text = "Öğrenci";
-            this.rdiotbn_kayitOl_ogrenci.UseVisualStyleBackColor = true;
+            this.btn_girisYap.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_girisYap.Location = new System.Drawing.Point(109, 219);
+            this.btn_girisYap.Name = "btn_girisYap";
+            this.btn_girisYap.Size = new System.Drawing.Size(127, 39);
+            this.btn_girisYap.TabIndex = 4;
+            this.btn_girisYap.Text = "Giriş Yap";
+            this.btn_girisYap.UseVisualStyleBackColor = true;
             // 
-            // txt_kayitOl_soyad
+            // txt_giris_sifre
             // 
-            this.txt_kayitOl_soyad.Location = new System.Drawing.Point(137, 151);
-            this.txt_kayitOl_soyad.Name = "txt_kayitOl_soyad";
-            this.txt_kayitOl_soyad.Size = new System.Drawing.Size(155, 22);
-            this.txt_kayitOl_soyad.TabIndex = 13;
+            this.txt_giris_sifre.Location = new System.Drawing.Point(132, 151);
+            this.txt_giris_sifre.Name = "txt_giris_sifre";
+            this.txt_giris_sifre.Size = new System.Drawing.Size(155, 22);
+            this.txt_giris_sifre.TabIndex = 3;
             // 
-            // label7
+            // txt_giris_kullaniciAd
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(61, 154);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 19);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Soyadı:";
+            this.txt_giris_kullaniciAd.Location = new System.Drawing.Point(132, 95);
+            this.txt_giris_kullaniciAd.Name = "txt_giris_kullaniciAd";
+            this.txt_giris_kullaniciAd.Size = new System.Drawing.Size(155, 22);
+            this.txt_giris_kullaniciAd.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(62, 152);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 19);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Şifre:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(6, 95);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(104, 19);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Kullanıcı Adı:";
+            // 
+            // rdiobtn_girisYap_ogrenci
+            // 
+            this.rdiobtn_girisYap_ogrenci.AutoSize = true;
+            this.rdiobtn_girisYap_ogrenci.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rdiobtn_girisYap_ogrenci.Location = new System.Drawing.Point(213, 39);
+            this.rdiobtn_girisYap_ogrenci.Name = "rdiobtn_girisYap_ogrenci";
+            this.rdiobtn_girisYap_ogrenci.Size = new System.Drawing.Size(91, 23);
+            this.rdiobtn_girisYap_ogrenci.TabIndex = 13;
+            this.rdiobtn_girisYap_ogrenci.TabStop = true;
+            this.rdiobtn_girisYap_ogrenci.Text = "Öğrenci";
+            this.rdiobtn_girisYap_ogrenci.UseVisualStyleBackColor = true;
+            // 
+            // rdiobtn_girisYap_sinavSor
+            // 
+            this.rdiobtn_girisYap_sinavSor.AutoSize = true;
+            this.rdiobtn_girisYap_sinavSor.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rdiobtn_girisYap_sinavSor.Location = new System.Drawing.Point(11, 39);
+            this.rdiobtn_girisYap_sinavSor.Name = "rdiobtn_girisYap_sinavSor";
+            this.rdiobtn_girisYap_sinavSor.Size = new System.Drawing.Size(154, 23);
+            this.rdiobtn_girisYap_sinavSor.TabIndex = 12;
+            this.rdiobtn_girisYap_sinavSor.TabStop = true;
+            this.rdiobtn_girisYap_sinavSor.Text = "Sınav Sorumlusu";
+            this.rdiobtn_girisYap_sinavSor.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Cornsilk;
+            this.BackColor = System.Drawing.Color.Beige;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(938, 707);
             this.Controls.Add(this.groupBox1);
@@ -298,10 +326,10 @@ namespace Yazılım_yapımı_proje
             this.Text = "Sınav Sistemi";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.grpbx_girisYap.ResumeLayout(false);
-            this.grpbx_girisYap.PerformLayout();
             this.grpbx_kayitOl.ResumeLayout(false);
             this.grpbx_kayitOl.PerformLayout();
+            this.grpbx_girisYap.ResumeLayout(false);
+            this.grpbx_girisYap.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -330,6 +358,8 @@ namespace Yazılım_yapımı_proje
         private System.Windows.Forms.TextBox txt_giris_kullaniciAd;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton rdiobtn_girisYap_ogrenci;
+        private System.Windows.Forms.RadioButton rdiobtn_girisYap_sinavSor;
     }
 }
 
