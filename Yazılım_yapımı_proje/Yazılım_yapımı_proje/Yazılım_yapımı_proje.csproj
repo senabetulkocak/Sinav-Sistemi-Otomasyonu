@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Panel.Designer.cs">
+      <DependentUpon>Admin_Panel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ayarlar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,12 +78,21 @@
     <Compile Include="Sinava_gir.Designer.cs">
       <DependentUpon>Sinava_gir.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sinav_Sorumlusu_Ekran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sinav_Sorumlusu_Ekran.Designer.cs">
+      <DependentUpon>Sinav_Sorumlusu_Ekran.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sonuclar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sonuclar.Designer.cs">
       <DependentUpon>Sonuclar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin_Panel.resx">
+      <DependentUpon>Admin_Panel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ayarlar.resx">
       <DependentUpon>Ayarlar.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +113,9 @@
     </Compile>
     <EmbeddedResource Include="Sinava_gir.resx">
       <DependentUpon>Sinava_gir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sinav_Sorumlusu_Ekran.resx">
+      <DependentUpon>Sinav_Sorumlusu_Ekran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sonuclar.resx">
       <DependentUpon>Sonuclar.cs</DependentUpon>
