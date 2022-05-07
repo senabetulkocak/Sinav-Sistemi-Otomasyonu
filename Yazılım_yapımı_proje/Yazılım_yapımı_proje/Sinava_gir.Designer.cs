@@ -51,6 +51,10 @@ namespace Yazılım_yapımı_proje
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_soru = new System.Windows.Forms.Label();
             this.grpbx_sinavSorusu = new System.Windows.Forms.GroupBox();
+            this.lbl_cevapD = new System.Windows.Forms.Label();
+            this.lbl_cevapC = new System.Windows.Forms.Label();
+            this.lbl_cevapB = new System.Windows.Forms.Label();
+            this.lbl_cevapA = new System.Windows.Forms.Label();
             this.rdiobtn_D = new System.Windows.Forms.RadioButton();
             this.rdiobtn_C = new System.Windows.Forms.RadioButton();
             this.rdiobtn_B = new System.Windows.Forms.RadioButton();
@@ -59,10 +63,7 @@ namespace Yazılım_yapımı_proje
             this.picbox_soru = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.lbl_ogrenci_adSoyad = new System.Windows.Forms.Label();
-            this.lbl_cevapA = new System.Windows.Forms.Label();
-            this.lbl_cevapB = new System.Windows.Forms.Label();
-            this.lbl_cevapC = new System.Windows.Forms.Label();
-            this.lbl_cevapD = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.grpbx_sinavAlani.SuspendLayout();
             this.grpbx_sinavSorusu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_soru)).BeginInit();
@@ -299,10 +300,50 @@ namespace Yazılım_yapımı_proje
             this.grpbx_sinavSorusu.Controls.Add(this.lbl_soru);
             this.grpbx_sinavSorusu.Location = new System.Drawing.Point(101, 338);
             this.grpbx_sinavSorusu.Name = "grpbx_sinavSorusu";
-            this.grpbx_sinavSorusu.Size = new System.Drawing.Size(1210, 674);
+            this.grpbx_sinavSorusu.Size = new System.Drawing.Size(1228, 646);
             this.grpbx_sinavSorusu.TabIndex = 2;
             this.grpbx_sinavSorusu.TabStop = false;
             this.grpbx_sinavSorusu.Enter += new System.EventHandler(this.grpbx_sinavSorusu_Enter);
+            // 
+            // lbl_cevapD
+            // 
+            this.lbl_cevapD.AutoSize = true;
+            this.lbl_cevapD.Font = new System.Drawing.Font("Times New Roman", 10.2F);
+            this.lbl_cevapD.Location = new System.Drawing.Point(162, 512);
+            this.lbl_cevapD.Name = "lbl_cevapD";
+            this.lbl_cevapD.Size = new System.Drawing.Size(51, 19);
+            this.lbl_cevapD.TabIndex = 13;
+            this.lbl_cevapD.Text = "label6";
+            // 
+            // lbl_cevapC
+            // 
+            this.lbl_cevapC.AutoSize = true;
+            this.lbl_cevapC.Font = new System.Drawing.Font("Times New Roman", 10.2F);
+            this.lbl_cevapC.Location = new System.Drawing.Point(162, 467);
+            this.lbl_cevapC.Name = "lbl_cevapC";
+            this.lbl_cevapC.Size = new System.Drawing.Size(51, 19);
+            this.lbl_cevapC.TabIndex = 12;
+            this.lbl_cevapC.Text = "label6";
+            // 
+            // lbl_cevapB
+            // 
+            this.lbl_cevapB.AutoSize = true;
+            this.lbl_cevapB.Font = new System.Drawing.Font("Times New Roman", 10.2F);
+            this.lbl_cevapB.Location = new System.Drawing.Point(162, 418);
+            this.lbl_cevapB.Name = "lbl_cevapB";
+            this.lbl_cevapB.Size = new System.Drawing.Size(51, 19);
+            this.lbl_cevapB.TabIndex = 11;
+            this.lbl_cevapB.Text = "label6";
+            // 
+            // lbl_cevapA
+            // 
+            this.lbl_cevapA.AutoSize = true;
+            this.lbl_cevapA.Font = new System.Drawing.Font("Times New Roman", 10.2F);
+            this.lbl_cevapA.Location = new System.Drawing.Point(162, 368);
+            this.lbl_cevapA.Name = "lbl_cevapA";
+            this.lbl_cevapA.Size = new System.Drawing.Size(51, 19);
+            this.lbl_cevapA.TabIndex = 10;
+            this.lbl_cevapA.Text = "label6";
             // 
             // rdiobtn_D
             // 
@@ -355,7 +396,7 @@ namespace Yazılım_yapımı_proje
             // btn_sonrakiSoru
             // 
             this.btn_sonrakiSoru.Font = new System.Drawing.Font("Times New Roman", 12F);
-            this.btn_sonrakiSoru.Location = new System.Drawing.Point(979, 574);
+            this.btn_sonrakiSoru.Location = new System.Drawing.Point(987, 557);
             this.btn_sonrakiSoru.Name = "btn_sonrakiSoru";
             this.btn_sonrakiSoru.Size = new System.Drawing.Size(127, 35);
             this.btn_sonrakiSoru.TabIndex = 3;
@@ -391,45 +432,15 @@ namespace Yazılım_yapımı_proje
             this.lbl_ogrenci_adSoyad.TabIndex = 4;
             this.lbl_ogrenci_adSoyad.Text = "( AD SOYAD )";
             // 
-            // lbl_cevapA
+            // button1
             // 
-            this.lbl_cevapA.AutoSize = true;
-            this.lbl_cevapA.Font = new System.Drawing.Font("Times New Roman", 10.2F);
-            this.lbl_cevapA.Location = new System.Drawing.Point(162, 368);
-            this.lbl_cevapA.Name = "lbl_cevapA";
-            this.lbl_cevapA.Size = new System.Drawing.Size(51, 19);
-            this.lbl_cevapA.TabIndex = 10;
-            this.lbl_cevapA.Text = "label6";
-            // 
-            // lbl_cevapB
-            // 
-            this.lbl_cevapB.AutoSize = true;
-            this.lbl_cevapB.Font = new System.Drawing.Font("Times New Roman", 10.2F);
-            this.lbl_cevapB.Location = new System.Drawing.Point(162, 418);
-            this.lbl_cevapB.Name = "lbl_cevapB";
-            this.lbl_cevapB.Size = new System.Drawing.Size(51, 19);
-            this.lbl_cevapB.TabIndex = 11;
-            this.lbl_cevapB.Text = "label6";
-            // 
-            // lbl_cevapC
-            // 
-            this.lbl_cevapC.AutoSize = true;
-            this.lbl_cevapC.Font = new System.Drawing.Font("Times New Roman", 10.2F);
-            this.lbl_cevapC.Location = new System.Drawing.Point(162, 467);
-            this.lbl_cevapC.Name = "lbl_cevapC";
-            this.lbl_cevapC.Size = new System.Drawing.Size(51, 19);
-            this.lbl_cevapC.TabIndex = 12;
-            this.lbl_cevapC.Text = "label6";
-            // 
-            // lbl_cevapD
-            // 
-            this.lbl_cevapD.AutoSize = true;
-            this.lbl_cevapD.Font = new System.Drawing.Font("Times New Roman", 10.2F);
-            this.lbl_cevapD.Location = new System.Drawing.Point(162, 512);
-            this.lbl_cevapD.Name = "lbl_cevapD";
-            this.lbl_cevapD.Size = new System.Drawing.Size(51, 19);
-            this.lbl_cevapD.TabIndex = 13;
-            this.lbl_cevapD.Text = "label6";
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(626, 990);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(179, 53);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "SINAVI BİTİR";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Sinava_gir
             // 
@@ -437,6 +448,7 @@ namespace Yazılım_yapımı_proje
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1416, 1055);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_ogrenci_adSoyad);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.grpbx_sinavSorusu);
@@ -488,5 +500,6 @@ namespace Yazılım_yapımı_proje
         private System.Windows.Forms.Label lbl_cevapC;
         private System.Windows.Forms.Label lbl_cevapB;
         private System.Windows.Forms.Label lbl_cevapA;
+        private System.Windows.Forms.Button button1;
     }
 }

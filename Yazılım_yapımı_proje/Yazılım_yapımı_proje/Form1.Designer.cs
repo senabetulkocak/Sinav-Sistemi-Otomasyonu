@@ -55,7 +55,6 @@ namespace Yazılım_yapımı_proje
             this.label3 = new System.Windows.Forms.Label();
             this.linklbl_sifremiUnuttum = new System.Windows.Forms.LinkLabel();
             this.rdiobtn_adminGirisi = new System.Windows.Forms.RadioButton();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.grpbx_kayitOl.SuspendLayout();
             this.grpbx_girisYap.SuspendLayout();
@@ -109,7 +108,6 @@ namespace Yazılım_yapımı_proje
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.grpbx_kayitOl);
             this.groupBox1.Controls.Add(this.grpbx_girisYap);
             this.groupBox1.Controls.Add(this.rdiobtn_girisYap);
@@ -339,13 +337,6 @@ namespace Yazılım_yapımı_proje
             this.rdiobtn_adminGirisi.Text = "Admin Girişi";
             this.rdiobtn_adminGirisi.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(305, 218);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 6;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -398,7 +389,6 @@ namespace Yazılım_yapımı_proje
         private System.Windows.Forms.RadioButton rdiobtn_girisYap_sinavSor;
         private System.Windows.Forms.LinkLabel linklbl_sifremiUnuttum;
         private System.Windows.Forms.RadioButton rdiobtn_adminGirisi;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 
