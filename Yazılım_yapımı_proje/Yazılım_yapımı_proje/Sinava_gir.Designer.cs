@@ -454,6 +454,7 @@ namespace Yazılım_yapımı_proje
             this.Controls.Add(this.grpbx_sinavSorusu);
             this.Controls.Add(this.grpbx_sinavAlani);
             this.Name = "Sinava_gir";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sinava_gir";
             this.grpbx_sinavAlani.ResumeLayout(false);
             this.grpbx_sinavAlani.PerformLayout();

@@ -180,6 +180,7 @@ namespace Yazılım_yapımı_proje
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Sinav_Sorumlusu_Ekran";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sinav_Sorumlusu_Ekran";
             this.ResumeLayout(false);
             this.PerformLayout();
