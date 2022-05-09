@@ -107,6 +107,7 @@ namespace Yazılım_yapımı_proje
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Ogrenci_Giris_Ekrani";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ogrenci_Giris_Ekrani";
             this.ResumeLayout(false);
             this.PerformLayout();

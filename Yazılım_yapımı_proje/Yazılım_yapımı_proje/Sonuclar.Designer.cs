@@ -79,6 +79,7 @@ namespace Yazılım_yapımı_proje
             this.Controls.Add(this.dataGrid_sonuc);
             this.DoubleBuffered = true;
             this.Name = "Sonuclar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sonuclar";
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid_sonuc)).EndInit();
             this.ResumeLayout(false);

@@ -46,6 +46,8 @@ namespace Yazılım_yapımı_proje
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.grpbx_girisYap = new System.Windows.Forms.GroupBox();
+            this.rdiobtn_adminGirisi = new System.Windows.Forms.RadioButton();
+            this.linklbl_sifremiUnuttum = new System.Windows.Forms.LinkLabel();
             this.rdiobtn_girisYap_ogrenci = new System.Windows.Forms.RadioButton();
             this.rdiobtn_girisYap_sinavSor = new System.Windows.Forms.RadioButton();
             this.btn_girisYap = new System.Windows.Forms.Button();
@@ -53,8 +55,6 @@ namespace Yazılım_yapımı_proje
             this.txt_giris_kullaniciAd = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.linklbl_sifremiUnuttum = new System.Windows.Forms.LinkLabel();
-            this.rdiobtn_adminGirisi = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.grpbx_kayitOl.SuspendLayout();
             this.grpbx_girisYap.SuspendLayout();
@@ -93,6 +93,7 @@ namespace Yazılım_yapımı_proje
             this.rdiobtn_girisYap.TabStop = true;
             this.rdiobtn_girisYap.Text = "Giriş Yap";
             this.rdiobtn_girisYap.UseVisualStyleBackColor = true;
+            this.rdiobtn_girisYap.CheckedChanged += new System.EventHandler(this.rdiobtn_girisYap_CheckedChanged);
             // 
             // rdiobtn_kayitOl
             // 
@@ -135,7 +136,6 @@ namespace Yazılım_yapımı_proje
             this.grpbx_kayitOl.Size = new System.Drawing.Size(333, 333);
             this.grpbx_kayitOl.TabIndex = 5;
             this.grpbx_kayitOl.TabStop = false;
-            this.grpbx_kayitOl.Visible = false;
             // 
             // txt_kayitOl_soyad
             // 
@@ -188,6 +188,7 @@ namespace Yazılım_yapımı_proje
             this.btn_kayitOl.TabIndex = 9;
             this.btn_kayitOl.Text = "Kayıt Ol";
             this.btn_kayitOl.UseVisualStyleBackColor = true;
+            this.btn_kayitOl.Click += new System.EventHandler(this.btn_kayitOl_Click);
             // 
             // txt_kayitOl_sifre
             // 
@@ -195,6 +196,7 @@ namespace Yazılım_yapımı_proje
             this.txt_kayitOl_sifre.Name = "txt_kayitOl_sifre";
             this.txt_kayitOl_sifre.Size = new System.Drawing.Size(155, 22);
             this.txt_kayitOl_sifre.TabIndex = 8;
+            this.txt_kayitOl_sifre.UseSystemPasswordChar = true;
             // 
             // txt_kayitOl_ad
             // 
@@ -242,7 +244,30 @@ namespace Yazılım_yapımı_proje
             this.grpbx_girisYap.Size = new System.Drawing.Size(342, 333);
             this.grpbx_girisYap.TabIndex = 4;
             this.grpbx_girisYap.TabStop = false;
-            this.grpbx_girisYap.Visible = false;
+            // 
+            // rdiobtn_adminGirisi
+            // 
+            this.rdiobtn_adminGirisi.AutoSize = true;
+            this.rdiobtn_adminGirisi.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rdiobtn_adminGirisi.Location = new System.Drawing.Point(99, 86);
+            this.rdiobtn_adminGirisi.Name = "rdiobtn_adminGirisi";
+            this.rdiobtn_adminGirisi.Size = new System.Drawing.Size(130, 23);
+            this.rdiobtn_adminGirisi.TabIndex = 15;
+            this.rdiobtn_adminGirisi.TabStop = true;
+            this.rdiobtn_adminGirisi.Text = "Admin Girişi";
+            this.rdiobtn_adminGirisi.UseVisualStyleBackColor = true;
+            // 
+            // linklbl_sifremiUnuttum
+            // 
+            this.linklbl_sifremiUnuttum.AutoSize = true;
+            this.linklbl_sifremiUnuttum.Font = new System.Drawing.Font("Times New Roman", 10.2F);
+            this.linklbl_sifremiUnuttum.Location = new System.Drawing.Point(135, 219);
+            this.linklbl_sifremiUnuttum.Name = "linklbl_sifremiUnuttum";
+            this.linklbl_sifremiUnuttum.Size = new System.Drawing.Size(120, 19);
+            this.linklbl_sifremiUnuttum.TabIndex = 14;
+            this.linklbl_sifremiUnuttum.TabStop = true;
+            this.linklbl_sifremiUnuttum.Text = "Şifremi unuttum";
+            this.linklbl_sifremiUnuttum.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linklbl_sifremiUnuttum_LinkClicked);
             // 
             // rdiobtn_girisYap_ogrenci
             // 
@@ -277,6 +302,7 @@ namespace Yazılım_yapımı_proje
             this.btn_girisYap.TabIndex = 4;
             this.btn_girisYap.Text = "Giriş Yap";
             this.btn_girisYap.UseVisualStyleBackColor = true;
+            this.btn_girisYap.Click += new System.EventHandler(this.btn_girisYap_Click);
             // 
             // txt_giris_sifre
             // 
@@ -284,6 +310,7 @@ namespace Yazılım_yapımı_proje
             this.txt_giris_sifre.Name = "txt_giris_sifre";
             this.txt_giris_sifre.Size = new System.Drawing.Size(155, 22);
             this.txt_giris_sifre.TabIndex = 3;
+            this.txt_giris_sifre.UseSystemPasswordChar = true;
             // 
             // txt_giris_kullaniciAd
             // 
@@ -314,29 +341,6 @@ namespace Yazılım_yapımı_proje
             this.label3.TabIndex = 0;
             this.label3.Text = "Kullanıcı Adı:";
             // 
-            // linklbl_sifremiUnuttum
-            // 
-            this.linklbl_sifremiUnuttum.AutoSize = true;
-            this.linklbl_sifremiUnuttum.Font = new System.Drawing.Font("Times New Roman", 10.2F);
-            this.linklbl_sifremiUnuttum.Location = new System.Drawing.Point(135, 219);
-            this.linklbl_sifremiUnuttum.Name = "linklbl_sifremiUnuttum";
-            this.linklbl_sifremiUnuttum.Size = new System.Drawing.Size(120, 19);
-            this.linklbl_sifremiUnuttum.TabIndex = 14;
-            this.linklbl_sifremiUnuttum.TabStop = true;
-            this.linklbl_sifremiUnuttum.Text = "Şifremi unuttum";
-            // 
-            // rdiobtn_adminGirisi
-            // 
-            this.rdiobtn_adminGirisi.AutoSize = true;
-            this.rdiobtn_adminGirisi.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdiobtn_adminGirisi.Location = new System.Drawing.Point(99, 86);
-            this.rdiobtn_adminGirisi.Name = "rdiobtn_adminGirisi";
-            this.rdiobtn_adminGirisi.Size = new System.Drawing.Size(130, 23);
-            this.rdiobtn_adminGirisi.TabIndex = 15;
-            this.rdiobtn_adminGirisi.TabStop = true;
-            this.rdiobtn_adminGirisi.Text = "Admin Girişi";
-            this.rdiobtn_adminGirisi.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -350,6 +354,7 @@ namespace Yazılım_yapımı_proje
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sınav Sistemi";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

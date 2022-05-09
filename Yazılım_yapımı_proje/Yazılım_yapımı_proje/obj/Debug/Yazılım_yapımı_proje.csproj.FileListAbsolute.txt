@@ -12,3 +12,5 @@ C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\ob
 C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.Ogrenci_Giris_Ekrani.resources
 C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.Sinava_gir.resources
 C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.Sonuclar.resources
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.Admin_Panel.resources
+C:\Users\kocak\source\repos\Yazılım_yapımı_proje\Yazılım_yapımı_proje\obj\Debug\Yazılım_yapımı_proje.Sinav_Sorumlusu_Ekran.resources
