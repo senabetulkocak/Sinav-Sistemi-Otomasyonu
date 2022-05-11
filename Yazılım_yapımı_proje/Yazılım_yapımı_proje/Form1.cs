@@ -18,9 +18,9 @@ namespace Yazılım_yapımı_proje
             InitializeComponent();
         }
 
-        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=sınav_sistemi;Integrated Security=True");
+        //sena SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=sınav_sistemi;Integrated Security=True");
+        SqlConnection baglan = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=sınav_sistemi;Integrated Security=True");
 
-       
         private void rdiobtn_girisYap_CheckedChanged(object sender, EventArgs e)
         {
             
@@ -85,6 +85,11 @@ namespace Yazılım_yapımı_proje
         private void btn_kayitOl_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
