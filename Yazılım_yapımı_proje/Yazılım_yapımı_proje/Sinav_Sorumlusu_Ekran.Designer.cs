@@ -65,7 +65,10 @@ namespace Yazılım_yapımı_proje
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtresim = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+<<<<<<< HEAD
             this.btntemizle = new System.Windows.Forms.Button();
+=======
+>>>>>>> reyyan
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -401,10 +404,16 @@ namespace Yazılım_yapımı_proje
             // 
             // pictureBox1
             // 
+<<<<<<< HEAD
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Location = new System.Drawing.Point(592, 150);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(219, 190);
+=======
+            this.pictureBox1.Location = new System.Drawing.Point(592, 150);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(167, 106);
+>>>>>>> reyyan
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 56;
             this.pictureBox1.TabStop = false;
@@ -421,6 +430,7 @@ namespace Yazılım_yapımı_proje
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+<<<<<<< HEAD
             // btntemizle
             // 
             this.btntemizle.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -433,6 +443,8 @@ namespace Yazılım_yapımı_proje
             this.btntemizle.UseVisualStyleBackColor = true;
             this.btntemizle.Click += new System.EventHandler(this.btntemizle_Click);
             // 
+=======
+>>>>>>> reyyan
             // Sinav_Sorumlusu_Ekran
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -441,7 +453,10 @@ namespace Yazılım_yapımı_proje
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(892, 507);
+<<<<<<< HEAD
             this.Controls.Add(this.btntemizle);
+=======
+>>>>>>> reyyan
             this.Controls.Add(this.txtresim);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label17);
@@ -522,6 +537,9 @@ namespace Yazılım_yapımı_proje
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtresim;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btntemizle;
+=======
+>>>>>>> reyyan
     }
 }

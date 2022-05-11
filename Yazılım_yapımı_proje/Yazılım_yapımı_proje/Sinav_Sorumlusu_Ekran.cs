@@ -55,6 +55,7 @@ namespace Yazılım_yapımı_proje
             pictureBox1.ImageLocation = openFileDialog1.FileName;
             txtresim.Text = openFileDialog1.FileName;
         }
+<<<<<<< HEAD
 
         private void btntemizle_Click(object sender, EventArgs e)
         {
@@ -66,5 +67,7 @@ namespace Yazılım_yapımı_proje
             txtcevap.Clear();
             txtresim.Clear();
         }
+=======
+>>>>>>> reyyan
     }
 }
