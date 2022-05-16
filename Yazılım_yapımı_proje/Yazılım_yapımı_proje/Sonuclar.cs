@@ -16,5 +16,12 @@ namespace Yazılım_yapımı_proje
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Ogrenci_Giris_Ekrani ogrEkran = new Ogrenci_Giris_Ekrani();
+            ogrEkran.Show();
+            this.Hide();
+        }
     }
 }

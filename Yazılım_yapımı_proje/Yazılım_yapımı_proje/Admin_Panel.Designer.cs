@@ -67,16 +67,17 @@ namespace Yazılım_yapımı_proje
             this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader23 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader24 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btn_geriDon = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DarkGray;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(268, 51);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 26);
+            this.label2.Size = new System.Drawing.Size(122, 28);
             this.label2.TabIndex = 6;
             this.label2.Text = "ÖĞRENCİ";
             // 
@@ -84,10 +85,10 @@ namespace Yazılım_yapımı_proje
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DarkGray;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(1010, 51);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(240, 26);
+            this.label3.Size = new System.Drawing.Size(227, 28);
             this.label3.TabIndex = 7;
             this.label3.Text = "SINAV SORUMLUSU";
             // 
@@ -95,10 +96,10 @@ namespace Yazılım_yapımı_proje
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.DarkGray;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(265, 556);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(128, 26);
+            this.label5.Size = new System.Drawing.Size(116, 28);
             this.label5.TabIndex = 9;
             this.label5.Text = "SORULAR";
             // 
@@ -106,10 +107,10 @@ namespace Yazılım_yapımı_proje
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.DarkGray;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.Location = new System.Drawing.Point(1093, 556);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 26);
+            this.label4.Size = new System.Drawing.Size(94, 28);
             this.label4.TabIndex = 11;
             this.label4.Text = "ADMİN";
             // 
@@ -123,6 +124,7 @@ namespace Yazılım_yapımı_proje
             this.columnHeader5,
             this.columnHeader6,
             this.columnHeader7});
+            this.listView_ogrenci.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView_ogrenci.HideSelection = false;
             this.listView_ogrenci.Location = new System.Drawing.Point(38, 80);
             this.listView_ogrenci.Name = "listView_ogrenci";
@@ -173,6 +175,7 @@ namespace Yazılım_yapımı_proje
             this.columnHeader10,
             this.columnHeader11,
             this.columnHeader12});
+            this.listView_sinavSor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView_sinavSor.HideSelection = false;
             this.listView_sinavSor.Location = new System.Drawing.Point(782, 80);
             this.listView_sinavSor.Name = "listView_sinavSor";
@@ -223,6 +226,7 @@ namespace Yazılım_yapımı_proje
             this.columnHeader32,
             this.columnHeader33,
             this.columnHeader34});
+            this.listView_sorular.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView_sorular.HideSelection = false;
             this.listView_sorular.Location = new System.Drawing.Point(38, 583);
             this.listView_sorular.Name = "listView_sorular";
@@ -303,6 +307,7 @@ namespace Yazılım_yapımı_proje
             this.columnHeader22,
             this.columnHeader23,
             this.columnHeader24});
+            this.listView_admin.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.listView_admin.HideSelection = false;
             this.listView_admin.Location = new System.Drawing.Point(782, 585);
             this.listView_admin.Name = "listView_admin";
@@ -325,12 +330,25 @@ namespace Yazılım_yapımı_proje
             this.columnHeader24.Text = "Şifre";
             this.columnHeader24.Width = 133;
             // 
+            // btn_geriDon
+            // 
+            this.btn_geriDon.Font = new System.Drawing.Font("Century Gothic", 12.2F, System.Drawing.FontStyle.Bold);
+            this.btn_geriDon.Location = new System.Drawing.Point(671, 14);
+            this.btn_geriDon.Name = "btn_geriDon";
+            this.btn_geriDon.Size = new System.Drawing.Size(145, 45);
+            this.btn_geriDon.TabIndex = 17;
+            this.btn_geriDon.Text = "GERİ DÖN";
+            this.btn_geriDon.UseVisualStyleBackColor = true;
+            this.btn_geriDon.Click += new System.EventHandler(this.btn_geriDon_Click);
+            // 
             // Admin_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(1515, 1055);
+            this.Controls.Add(this.btn_geriDon);
             this.Controls.Add(this.listView_admin);
             this.Controls.Add(this.listView_sorular);
             this.Controls.Add(this.listView_sinavSor);
@@ -387,5 +405,6 @@ namespace Yazılım_yapımı_proje
         private System.Windows.Forms.ColumnHeader columnHeader22;
         private System.Windows.Forms.ColumnHeader columnHeader23;
         private System.Windows.Forms.ColumnHeader columnHeader24;
+        private System.Windows.Forms.Button btn_geriDon;
     }
 }

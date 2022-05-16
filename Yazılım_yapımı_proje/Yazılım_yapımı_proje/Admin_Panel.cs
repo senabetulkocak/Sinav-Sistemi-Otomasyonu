@@ -18,8 +18,8 @@ namespace Yazılım_yapımı_proje
             InitializeComponent();
         }
         
-        //sena SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=sınav_sistemi;Integrated Security=True");
-        SqlConnection baglan = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=sınav_sistemi;Integrated Security=True");
+        SqlConnection baglan = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=sınav_sistemi;Integrated Security=True");
+        //reyyan SqlConnection baglan = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=sınav_sistemi;Integrated Security=True");
 
         private void ogrenciVerileriGoster()
         {
@@ -131,6 +131,13 @@ namespace Yazılım_yapımı_proje
             sinavSorumlusuVerileriGoster();
             adminVerileriGoster();
             soruVerileriGoster();
+        }
+
+        private void btn_geriDon_Click(object sender, EventArgs e)
+        {
+            Form1 anaForm = new Form1();
+            anaForm.Show();
+            this.Hide();
         }
     }
 }

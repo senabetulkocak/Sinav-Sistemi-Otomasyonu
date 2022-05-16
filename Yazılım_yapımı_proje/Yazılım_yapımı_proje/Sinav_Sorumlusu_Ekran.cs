@@ -87,5 +87,12 @@ namespace Yazılım_yapımı_proje
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form1 anaform = new Form1();
+            anaform.Show();
+            this.Hide();
+        }
     }
 }

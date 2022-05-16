@@ -21,5 +21,11 @@ namespace Yazılım_yapımı_proje
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Sınavınız sonlandırıldı.");
+            this.Close();
+        }
     }
 }

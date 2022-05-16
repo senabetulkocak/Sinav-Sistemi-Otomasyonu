@@ -45,84 +45,92 @@ namespace Yazılım_yapımı_proje
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(578, 48);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(554, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(261, 23);
+            this.label1.Size = new System.Drawing.Size(300, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Cevapladığınız doğru soruları ";
             // 
             // dateTimePicker_1
             // 
-            this.dateTimePicker_1.Location = new System.Drawing.Point(594, 148);
+            this.dateTimePicker_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker_1.Location = new System.Drawing.Point(593, 135);
             this.dateTimePicker_1.Name = "dateTimePicker_1";
-            this.dateTimePicker_1.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker_1.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker_1.TabIndex = 1;
             // 
             // dateTimePicker_2
             // 
-            this.dateTimePicker_2.Location = new System.Drawing.Point(594, 194);
+            this.dateTimePicker_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker_2.Location = new System.Drawing.Point(593, 181);
             this.dateTimePicker_2.Name = "dateTimePicker_2";
-            this.dateTimePicker_2.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker_2.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker_2.TabIndex = 2;
             // 
             // dateTimePicker_3
             // 
-            this.dateTimePicker_3.Location = new System.Drawing.Point(594, 244);
+            this.dateTimePicker_3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker_3.Location = new System.Drawing.Point(593, 231);
             this.dateTimePicker_3.Name = "dateTimePicker_3";
-            this.dateTimePicker_3.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker_3.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker_3.TabIndex = 3;
             // 
             // dateTimePicker_4
             // 
-            this.dateTimePicker_4.Location = new System.Drawing.Point(594, 292);
+            this.dateTimePicker_4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker_4.Location = new System.Drawing.Point(593, 279);
             this.dateTimePicker_4.Name = "dateTimePicker_4";
-            this.dateTimePicker_4.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker_4.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker_4.TabIndex = 4;
             // 
             // dateTimePicker_6
             // 
-            this.dateTimePicker_6.Location = new System.Drawing.Point(594, 391);
+            this.dateTimePicker_6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker_6.Location = new System.Drawing.Point(593, 378);
             this.dateTimePicker_6.Name = "dateTimePicker_6";
-            this.dateTimePicker_6.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker_6.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker_6.TabIndex = 6;
             // 
             // dateTimePicker_5
             // 
-            this.dateTimePicker_5.Location = new System.Drawing.Point(594, 343);
+            this.dateTimePicker_5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker_5.Location = new System.Drawing.Point(593, 330);
             this.dateTimePicker_5.Name = "dateTimePicker_5";
-            this.dateTimePicker_5.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker_5.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker_5.TabIndex = 5;
             // 
             // btn_ayarlarKaydet
             // 
-            this.btn_ayarlarKaydet.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_ayarlarKaydet.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_ayarlarKaydet.Location = new System.Drawing.Point(745, 447);
             this.btn_ayarlarKaydet.Name = "btn_ayarlarKaydet";
             this.btn_ayarlarKaydet.Size = new System.Drawing.Size(109, 38);
             this.btn_ayarlarKaydet.TabIndex = 7;
             this.btn_ayarlarKaydet.Text = "Kaydet";
             this.btn_ayarlarKaydet.UseVisualStyleBackColor = true;
+            this.btn_ayarlarKaydet.Click += new System.EventHandler(this.btn_ayarlarKaydet_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(557, 83);
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(533, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(297, 23);
+            this.label2.Size = new System.Drawing.Size(339, 23);
             this.label2.TabIndex = 8;
             this.label2.Text = "çözmek için özel tarih belirleyiniz.";
             // 
             // btn_ayarlarDonOgrenciEkrani
             // 
-            this.btn_ayarlarDonOgrenciEkrani.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_ayarlarDonOgrenciEkrani.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_ayarlarDonOgrenciEkrani.Location = new System.Drawing.Point(487, 447);
             this.btn_ayarlarDonOgrenciEkrani.Name = "btn_ayarlarDonOgrenciEkrani";
-            this.btn_ayarlarDonOgrenciEkrani.Size = new System.Drawing.Size(217, 38);
+            this.btn_ayarlarDonOgrenciEkrani.Size = new System.Drawing.Size(234, 38);
             this.btn_ayarlarDonOgrenciEkrani.TabIndex = 9;
             this.btn_ayarlarDonOgrenciEkrani.Text = "Öğrenci Menü\'ye Dön";
             this.btn_ayarlarDonOgrenciEkrani.UseVisualStyleBackColor = true;
+            this.btn_ayarlarDonOgrenciEkrani.Click += new System.EventHandler(this.btn_ayarlarDonOgrenciEkrani_Click);
             // 
             // Ayarlar
             // 

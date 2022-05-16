@@ -165,5 +165,10 @@ namespace Yazılım_yapımı_proje
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
