@@ -120,7 +120,6 @@ namespace Yazılım_yapımı_proje
 
         private void linklbl_sifremiUnuttum_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MessageBox.Show("Geçici Kullanıcı adınız: Sena\nŞifreniz: Reyyan");
         }
 
         private void btn_kayitOl_Click(object sender, EventArgs e)

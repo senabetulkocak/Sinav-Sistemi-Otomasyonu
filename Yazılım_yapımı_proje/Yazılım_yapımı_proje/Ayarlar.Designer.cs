@@ -124,9 +124,9 @@ namespace Yazılım_yapımı_proje
             // btn_ayarlarDonOgrenciEkrani
             // 
             this.btn_ayarlarDonOgrenciEkrani.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_ayarlarDonOgrenciEkrani.Location = new System.Drawing.Point(487, 447);
+            this.btn_ayarlarDonOgrenciEkrani.Location = new System.Drawing.Point(472, 447);
             this.btn_ayarlarDonOgrenciEkrani.Name = "btn_ayarlarDonOgrenciEkrani";
-            this.btn_ayarlarDonOgrenciEkrani.Size = new System.Drawing.Size(234, 38);
+            this.btn_ayarlarDonOgrenciEkrani.Size = new System.Drawing.Size(250, 38);
             this.btn_ayarlarDonOgrenciEkrani.TabIndex = 9;
             this.btn_ayarlarDonOgrenciEkrani.Text = "Öğrenci Menü\'ye Dön";
             this.btn_ayarlarDonOgrenciEkrani.UseVisualStyleBackColor = true;

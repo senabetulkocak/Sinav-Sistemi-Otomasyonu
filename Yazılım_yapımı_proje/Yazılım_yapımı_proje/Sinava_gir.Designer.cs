@@ -50,7 +50,7 @@ namespace Yazılım_yapımı_proje
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.grpbx_sinavSorusu = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtbox_soru = new System.Windows.Forms.TextBox();
             this.lbl_cevapD = new System.Windows.Forms.Label();
             this.lbl_cevapC = new System.Windows.Forms.Label();
             this.lbl_cevapB = new System.Windows.Forms.Label();
@@ -277,7 +277,7 @@ namespace Yazılım_yapımı_proje
             // 
             // grpbx_sinavSorusu
             // 
-            this.grpbx_sinavSorusu.Controls.Add(this.textBox1);
+            this.grpbx_sinavSorusu.Controls.Add(this.txtbox_soru);
             this.grpbx_sinavSorusu.Controls.Add(this.lbl_cevapD);
             this.grpbx_sinavSorusu.Controls.Add(this.lbl_cevapC);
             this.grpbx_sinavSorusu.Controls.Add(this.lbl_cevapB);
@@ -295,14 +295,14 @@ namespace Yazılım_yapımı_proje
             this.grpbx_sinavSorusu.TabStop = false;
             this.grpbx_sinavSorusu.Enter += new System.EventHandler(this.grpbx_sinavSorusu_Enter);
             // 
-            // textBox1
+            // txtbox_soru
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(85, 71);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(603, 230);
-            this.textBox1.TabIndex = 14;
+            this.txtbox_soru.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtbox_soru.Location = new System.Drawing.Point(85, 71);
+            this.txtbox_soru.Multiline = true;
+            this.txtbox_soru.Name = "txtbox_soru";
+            this.txtbox_soru.Size = new System.Drawing.Size(603, 230);
+            this.txtbox_soru.TabIndex = 14;
             // 
             // lbl_cevapD
             // 
@@ -407,6 +407,7 @@ namespace Yazılım_yapımı_proje
             this.picbox_soru.Location = new System.Drawing.Point(735, 71);
             this.picbox_soru.Name = "picbox_soru";
             this.picbox_soru.Size = new System.Drawing.Size(455, 230);
+            this.picbox_soru.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox_soru.TabIndex = 4;
             this.picbox_soru.TabStop = false;
             // 
@@ -502,6 +503,6 @@ namespace Yazılım_yapımı_proje
         private System.Windows.Forms.Label lbl_cevapB;
         private System.Windows.Forms.Label lbl_cevapA;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtbox_soru;
     }
 }
