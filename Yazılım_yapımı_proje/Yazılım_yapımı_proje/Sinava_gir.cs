@@ -56,7 +56,7 @@ namespace Yazılım_yapımı_proje
                 lbl_cevapC.Text = read["c_sikki"].ToString();
                 lbl_cevapD.Text = read["d_sikki"].ToString();
 
-             
+
                 //if (read["soru_resmi"] != null)
                 //{
                 //    Byte[] data = new Byte[0];
@@ -64,13 +64,13 @@ namespace Yazılım_yapımı_proje
                 //    MemoryStream mem = new MemoryStream(data);
                 //    picbox_soru.Image = Image.FromStream(mem);
                 //}
-                //else if(read["soru_resmi"]==null)
+                //else if (read["soru_resmi"] == null)
                 //{
-                //    picbox_soru.Image=DBNull.Value 0;
+
                 //}
 
 
-            }
+        }
             baglanti.Close();
         }
 
@@ -84,7 +84,11 @@ namespace Yazılım_yapımı_proje
             while (sayac < 10);
             MessageBox.Show("Sınavınız bitmiştir.");
         }
-       
+
+        private void lbl_ogrenci_adSoyad_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
     

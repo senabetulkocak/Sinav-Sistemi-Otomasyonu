@@ -420,6 +420,7 @@ namespace Yazılım_yapımı_proje
             this.lbl_ogrenci_adSoyad.Size = new System.Drawing.Size(130, 22);
             this.lbl_ogrenci_adSoyad.TabIndex = 4;
             this.lbl_ogrenci_adSoyad.Text = "( AD SOYAD )";
+            this.lbl_ogrenci_adSoyad.Click += new System.EventHandler(this.lbl_ogrenci_adSoyad_Click);
             // 
             // button1
             // 

@@ -63,13 +63,13 @@ namespace Yazılım_yapımı_proje
                 }
                 else
                 {
-                    MessageBox.Show("Bilgilerinizi kontrol ediniz.","Hata1");
+                    MessageBox.Show("Bilgilerinizi kontrol ediniz.","Hata");
                 }
                 baglanti.Close();
             }
             else
             {
-                MessageBox.Show("Şifreler uyuşmuyor.","Hata3");
+                MessageBox.Show("Şifreler uyuşmuyor ya da boş bıraktınız.", "Uyarı");
             }
         }
 
@@ -94,13 +94,13 @@ namespace Yazılım_yapımı_proje
                 }
                 else
                 {
-                    MessageBox.Show("Bilgilerinizi kontrol ediniz.", "Hata1");
+                    MessageBox.Show("Bilgilerinizi kontrol ediniz.", "Hata");
                 }
                 baglanti.Close();
             }
             else
             {
-                MessageBox.Show("Şifreler uyuşmuyor.", "Hata3");
+                MessageBox.Show("Şifreler uyuşmuyor ya da boş bıraktınız.", "Uyarı");
             }
         }
 
