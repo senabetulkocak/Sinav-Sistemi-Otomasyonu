@@ -27,12 +27,15 @@ namespace Yazılım_yapımı_proje
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Sınavınız sonlandırıldı.");
+            Ogrenci_Giris_Ekrani ogr = new Ogrenci_Giris_Ekrani();
+            ogr.Show();
             this.Close();
         }
-        //reyyan SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=sınav_sistemi;Integrated Security=True");
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=sınav_sistemi;Integrated Security=True");
+         SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-56SRHAG;Initial Catalog=sınav_sistemi;Integrated Security=True");
+     //sena SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-52OSE7G;Initial Catalog=sınav_sistemi;Integrated Security=True");
         private void Sinava_gir_Load(object sender, EventArgs e)
         {
+            labelAdSoyad();
             randomSoruGetir();
         }
         private void randomSoruGetir()
@@ -57,37 +60,45 @@ namespace Yazılım_yapımı_proje
                 lbl_cevapD.Text = read["d_sikki"].ToString();
 
 
-                //if (read["soru_resmi"] != null)
-                //{
-                //    Byte[] data = new Byte[0];
-                //    data = (Byte[])(read["soru_resmi"]);
-                //    MemoryStream mem = new MemoryStream(data);
-                //    picbox_soru.Image = Image.FromStream(mem);
-                //}
-                //else if (read["soru_resmi"] == null)
-                //{
-
-                //}
+                if (read["soru_resmi"] != null && read["soru_resmi"] != DBNull.Value)
+                {
+                    Byte[] data = new Byte[0];
+                    data = (Byte[])(read["soru_resmi"]);
+                    MemoryStream mem = new MemoryStream(data);
+                    picbox_soru.Image = Image.FromStream(mem);
+                }
 
 
-        }
+
+
+            }
             baglanti.Close();
         }
-
+        int sayac = 1;
         private void btn_sonrakiSoru_Click(object sender, EventArgs e)
         {
-            int sayac = 0;
-            do
+            if (sayac < 10)
             {
                 randomSoruGetir();
+                sayac++;
             }
-            while (sayac < 10);
-            MessageBox.Show("Sınavınız bitmiştir.");
+            else
+            {
+                MessageBox.Show("Sınavınız bitmiştir.");
+                Ogrenci_Giris_Ekrani ogr_ = new Ogrenci_Giris_Ekrani();
+                ogr_.Show();
+                this.Close();
+
+            }
+
+        }
+        private void labelAdSoyad()
+        {
         }
 
         private void lbl_ogrenci_adSoyad_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
