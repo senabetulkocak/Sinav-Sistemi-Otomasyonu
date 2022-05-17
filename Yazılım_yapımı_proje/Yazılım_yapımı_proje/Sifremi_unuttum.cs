@@ -106,7 +106,7 @@ namespace Yazılım_yapımı_proje
 
         public void sifreAdmin(TextBox kullanıcıAd, TextBox sifre, TextBox sifreTekrar)
         {
-            if (sifre.Text == sifreTekrar.Text)
+            if (sifre.Text == sifreTekrar.Text && (sifre.Text!=""))
             {
                 baglanti.Open();
                 komut = new SqlCommand("select *from tblAdmin where admn_kullanici_adi= '" + kullanıcıAd.Text + "'", baglanti);
@@ -125,13 +125,13 @@ namespace Yazılım_yapımı_proje
                 }
                 else
                 {
-                    MessageBox.Show("Bilgilerinizi kontrol ediniz.", "Hata1");
+                    MessageBox.Show("Bilgilerinizi kontrol ediniz.", "Hata");
                 }
                 baglanti.Close();
             }
             else
             {
-                MessageBox.Show("Şifreler uyuşmuyor.", "Hata3");
+                MessageBox.Show("Şifreler uyuşmuyor ya da boş bıraktınız.", "Uyarı");
             }
         }
     }

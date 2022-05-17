@@ -31,17 +31,17 @@ namespace Yazılım_yapımı_proje
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sifremi_unuttum));
             this.grpbx_kayitOl = new System.Windows.Forms.GroupBox();
+            this.txt_sifDegis_sifreTekrar = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rdiobtn_sifDegis_admin = new System.Windows.Forms.RadioButton();
+            this.rdiobtn_sifDegis_ogrenci = new System.Windows.Forms.RadioButton();
+            this.rdiobtn_sifDegis_sinavSor = new System.Windows.Forms.RadioButton();
             this.txt_sifDegis_kullaniciAd = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btn_sifreDegis = new System.Windows.Forms.Button();
             this.txt_sifDegis_sifre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdiobtn_sifDegis_admin = new System.Windows.Forms.RadioButton();
-            this.rdiobtn_sifDegis_ogrenci = new System.Windows.Forms.RadioButton();
-            this.rdiobtn_sifDegis_sinavSor = new System.Windows.Forms.RadioButton();
-            this.txt_sifDegis_sifreTekrar = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.grpbx_kayitOl.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +64,77 @@ namespace Yazılım_yapımı_proje
             this.grpbx_kayitOl.Size = new System.Drawing.Size(439, 501);
             this.grpbx_kayitOl.TabIndex = 6;
             this.grpbx_kayitOl.TabStop = false;
+            // 
+            // txt_sifDegis_sifreTekrar
+            // 
+            this.txt_sifDegis_sifreTekrar.Location = new System.Drawing.Point(190, 337);
+            this.txt_sifDegis_sifreTekrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txt_sifDegis_sifreTekrar.Name = "txt_sifDegis_sifreTekrar";
+            this.txt_sifDegis_sifreTekrar.Size = new System.Drawing.Size(155, 22);
+            this.txt_sifDegis_sifreTekrar.TabIndex = 18;
+            this.txt_sifDegis_sifreTekrar.UseSystemPasswordChar = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(70, 337);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(102, 21);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Şifre Tekrar:";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox1.Controls.Add(this.rdiobtn_sifDegis_admin);
+            this.groupBox1.Controls.Add(this.rdiobtn_sifDegis_ogrenci);
+            this.groupBox1.Controls.Add(this.rdiobtn_sifDegis_sinavSor);
+            this.groupBox1.Location = new System.Drawing.Point(63, 48);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(324, 122);
+            this.groupBox1.TabIndex = 16;
+            this.groupBox1.TabStop = false;
+            // 
+            // rdiobtn_sifDegis_admin
+            // 
+            this.rdiobtn_sifDegis_admin.AutoSize = true;
+            this.rdiobtn_sifDegis_admin.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rdiobtn_sifDegis_admin.Location = new System.Drawing.Point(113, 80);
+            this.rdiobtn_sifDegis_admin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdiobtn_sifDegis_admin.Name = "rdiobtn_sifDegis_admin";
+            this.rdiobtn_sifDegis_admin.Size = new System.Drawing.Size(84, 23);
+            this.rdiobtn_sifDegis_admin.TabIndex = 18;
+            this.rdiobtn_sifDegis_admin.TabStop = true;
+            this.rdiobtn_sifDegis_admin.Text = "Admin";
+            this.rdiobtn_sifDegis_admin.UseVisualStyleBackColor = true;
+            // 
+            // rdiobtn_sifDegis_ogrenci
+            // 
+            this.rdiobtn_sifDegis_ogrenci.AutoSize = true;
+            this.rdiobtn_sifDegis_ogrenci.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rdiobtn_sifDegis_ogrenci.Location = new System.Drawing.Point(201, 37);
+            this.rdiobtn_sifDegis_ogrenci.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdiobtn_sifDegis_ogrenci.Name = "rdiobtn_sifDegis_ogrenci";
+            this.rdiobtn_sifDegis_ogrenci.Size = new System.Drawing.Size(96, 23);
+            this.rdiobtn_sifDegis_ogrenci.TabIndex = 17;
+            this.rdiobtn_sifDegis_ogrenci.TabStop = true;
+            this.rdiobtn_sifDegis_ogrenci.Text = "Öğrenci";
+            this.rdiobtn_sifDegis_ogrenci.UseVisualStyleBackColor = true;
+            // 
+            // rdiobtn_sifDegis_sinavSor
+            // 
+            this.rdiobtn_sifDegis_sinavSor.AutoSize = true;
+            this.rdiobtn_sifDegis_sinavSor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rdiobtn_sifDegis_sinavSor.Location = new System.Drawing.Point(11, 37);
+            this.rdiobtn_sifDegis_sinavSor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rdiobtn_sifDegis_sinavSor.Name = "rdiobtn_sifDegis_sinavSor";
+            this.rdiobtn_sifDegis_sinavSor.Size = new System.Drawing.Size(162, 23);
+            this.rdiobtn_sifDegis_sinavSor.TabIndex = 16;
+            this.rdiobtn_sifDegis_sinavSor.TabStop = true;
+            this.rdiobtn_sifDegis_sinavSor.Text = "Sınav Sorumlusu";
+            this.rdiobtn_sifDegis_sinavSor.UseVisualStyleBackColor = true;
             // 
             // txt_sifDegis_kullaniciAd
             // 
@@ -118,77 +189,6 @@ namespace Yazılım_yapımı_proje
             this.label5.Size = new System.Drawing.Size(47, 21);
             this.label5.TabIndex = 6;
             this.label5.Text = "Şifre:";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.groupBox1.Controls.Add(this.rdiobtn_sifDegis_admin);
-            this.groupBox1.Controls.Add(this.rdiobtn_sifDegis_ogrenci);
-            this.groupBox1.Controls.Add(this.rdiobtn_sifDegis_sinavSor);
-            this.groupBox1.Location = new System.Drawing.Point(63, 48);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(324, 122);
-            this.groupBox1.TabIndex = 16;
-            this.groupBox1.TabStop = false;
-            // 
-            // rdiobtn_sifDegis_admin
-            // 
-            this.rdiobtn_sifDegis_admin.AutoSize = true;
-            this.rdiobtn_sifDegis_admin.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdiobtn_sifDegis_admin.Location = new System.Drawing.Point(99, 84);
-            this.rdiobtn_sifDegis_admin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.rdiobtn_sifDegis_admin.Name = "rdiobtn_sifDegis_admin";
-            this.rdiobtn_sifDegis_admin.Size = new System.Drawing.Size(128, 23);
-            this.rdiobtn_sifDegis_admin.TabIndex = 18;
-            this.rdiobtn_sifDegis_admin.TabStop = true;
-            this.rdiobtn_sifDegis_admin.Text = "Admin Girişi";
-            this.rdiobtn_sifDegis_admin.UseVisualStyleBackColor = true;
-            // 
-            // rdiobtn_sifDegis_ogrenci
-            // 
-            this.rdiobtn_sifDegis_ogrenci.AutoSize = true;
-            this.rdiobtn_sifDegis_ogrenci.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdiobtn_sifDegis_ogrenci.Location = new System.Drawing.Point(213, 37);
-            this.rdiobtn_sifDegis_ogrenci.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.rdiobtn_sifDegis_ogrenci.Name = "rdiobtn_sifDegis_ogrenci";
-            this.rdiobtn_sifDegis_ogrenci.Size = new System.Drawing.Size(96, 23);
-            this.rdiobtn_sifDegis_ogrenci.TabIndex = 17;
-            this.rdiobtn_sifDegis_ogrenci.TabStop = true;
-            this.rdiobtn_sifDegis_ogrenci.Text = "Öğrenci";
-            this.rdiobtn_sifDegis_ogrenci.UseVisualStyleBackColor = true;
-            // 
-            // rdiobtn_sifDegis_sinavSor
-            // 
-            this.rdiobtn_sifDegis_sinavSor.AutoSize = true;
-            this.rdiobtn_sifDegis_sinavSor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rdiobtn_sifDegis_sinavSor.Location = new System.Drawing.Point(11, 37);
-            this.rdiobtn_sifDegis_sinavSor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.rdiobtn_sifDegis_sinavSor.Name = "rdiobtn_sifDegis_sinavSor";
-            this.rdiobtn_sifDegis_sinavSor.Size = new System.Drawing.Size(162, 23);
-            this.rdiobtn_sifDegis_sinavSor.TabIndex = 16;
-            this.rdiobtn_sifDegis_sinavSor.TabStop = true;
-            this.rdiobtn_sifDegis_sinavSor.Text = "Sınav Sorumlusu";
-            this.rdiobtn_sifDegis_sinavSor.UseVisualStyleBackColor = true;
-            // 
-            // txt_sifDegis_sifreTekrar
-            // 
-            this.txt_sifDegis_sifreTekrar.Location = new System.Drawing.Point(190, 337);
-            this.txt_sifDegis_sifreTekrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txt_sifDegis_sifreTekrar.Name = "txt_sifDegis_sifreTekrar";
-            this.txt_sifDegis_sifreTekrar.Size = new System.Drawing.Size(155, 22);
-            this.txt_sifDegis_sifreTekrar.TabIndex = 18;
-            this.txt_sifDegis_sifreTekrar.UseSystemPasswordChar = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(70, 337);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 21);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Şifre Tekrar:";
             // 
             // Sifremi_unuttum
             // 
