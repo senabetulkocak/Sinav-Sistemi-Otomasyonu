@@ -135,10 +135,10 @@ namespace Yazılım_yapımı_proje
             
         }
 
-        /*Radiobutton kontrollerini yapmaya çalıştık ama olmadı.
-         * private void rdiobtn_A_CheckedChanged(object sender, EventArgs e)
+        /*Radiobutton kontrollerini yapmaya çalıştık ama olmadı.*/
+          private void rdiobtn_A_CheckedChanged(object sender, EventArgs e)
         {
-            baglanti.Open();
+            /*baglanti.Open();
             SqlCommand komut = new SqlCommand("select TOP 1 soru_id,soru_metni,soru_resmi,a_sikki,b_sikki,c_sikki,d_sikki,ders_adi,unite_adi,konu_adi,sinif_duzeyi,unite_no,konu_no,soru_no,kod_no,cevap from tblSorular order by NEWID()", baglanti);
             SqlDataReader read = komut.ExecuteReader();
             while (read.Read())
@@ -152,12 +152,12 @@ namespace Yazılım_yapımı_proje
             }
             }
             
-            baglanti.Close();
+            baglanti.Close();*/
         }
 
         private void rdiobtn_B_CheckedChanged(object sender, EventArgs e)
         {
-            baglanti.Open();
+           /* baglanti.Open();
             SqlCommand komut = new SqlCommand("select TOP 1 soru_id,soru_metni,soru_resmi,a_sikki,b_sikki,c_sikki,d_sikki,ders_adi,unite_adi,konu_adi,sinif_duzeyi,unite_no,konu_no,soru_no,kod_no,cevap from tblSorular order by NEWID()", baglanti);
             SqlDataReader read = komut.ExecuteReader();
             while (read.Read())
@@ -171,12 +171,12 @@ namespace Yazılım_yapımı_proje
             }
             }
             
-            baglanti.Close();
+            baglanti.Close();*/
         }
 
         private void rdiobtn_C_CheckedChanged(object sender, EventArgs e)
         {
-            baglanti.Open();
+           /* baglanti.Open();
             SqlCommand komut = new SqlCommand("select TOP 1 soru_id,soru_metni,soru_resmi,a_sikki,b_sikki,c_sikki,d_sikki,ders_adi,unite_adi,konu_adi,sinif_duzeyi,unite_no,konu_no,soru_no,kod_no,cevap from tblSorular order by NEWID()", baglanti);
             SqlDataReader read = komut.ExecuteReader();
             while (read.Read())
@@ -190,12 +190,12 @@ namespace Yazılım_yapımı_proje
             }
             }
             
-            baglanti.Close();
+            baglanti.Close();*/
         }
 
         private void rdiobtn_D_CheckedChanged(object sender, EventArgs e)
         {
-            baglanti.Open();
+           /* baglanti.Open();
             SqlCommand komut = new SqlCommand("select TOP 1 soru_id,soru_metni,soru_resmi,a_sikki,b_sikki,c_sikki,d_sikki,ders_adi,unite_adi,konu_adi,sinif_duzeyi,unite_no,konu_no,soru_no,kod_no,cevap from tblSorular order by NEWID()", baglanti);
             SqlDataReader read = komut.ExecuteReader();
             while (read.Read())
@@ -209,8 +209,8 @@ namespace Yazılım_yapımı_proje
             }
             }
             
-            baglanti.Close();
-        }*/
+            baglanti.Close();*/
+        }
     }
 }
     
