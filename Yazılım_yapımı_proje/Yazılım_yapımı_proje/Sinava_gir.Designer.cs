@@ -96,9 +96,9 @@ namespace Yazılım_yapımı_proje
             this.grpbx_sinavAlani.Controls.Add(this.label2);
             this.grpbx_sinavAlani.Controls.Add(this.label1);
             this.grpbx_sinavAlani.Location = new System.Drawing.Point(264, 110);
-            this.grpbx_sinavAlani.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpbx_sinavAlani.Margin = new System.Windows.Forms.Padding(2);
             this.grpbx_sinavAlani.Name = "grpbx_sinavAlani";
-            this.grpbx_sinavAlani.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpbx_sinavAlani.Padding = new System.Windows.Forms.Padding(2);
             this.grpbx_sinavAlani.Size = new System.Drawing.Size(568, 141);
             this.grpbx_sinavAlani.TabIndex = 1;
             this.grpbx_sinavAlani.TabStop = false;
@@ -282,9 +282,9 @@ namespace Yazılım_yapımı_proje
             this.grpbx_sinavSorusu.Controls.Add(this.btn_sonrakiSoru);
             this.grpbx_sinavSorusu.Controls.Add(this.picbox_soru);
             this.grpbx_sinavSorusu.Location = new System.Drawing.Point(76, 275);
-            this.grpbx_sinavSorusu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpbx_sinavSorusu.Margin = new System.Windows.Forms.Padding(2);
             this.grpbx_sinavSorusu.Name = "grpbx_sinavSorusu";
-            this.grpbx_sinavSorusu.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpbx_sinavSorusu.Padding = new System.Windows.Forms.Padding(2);
             this.grpbx_sinavSorusu.Size = new System.Drawing.Size(921, 525);
             this.grpbx_sinavSorusu.TabIndex = 2;
             this.grpbx_sinavSorusu.TabStop = false;
@@ -294,7 +294,7 @@ namespace Yazılım_yapımı_proje
             // 
             this.txtbox_soru.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtbox_soru.Location = new System.Drawing.Point(64, 58);
-            this.txtbox_soru.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtbox_soru.Margin = new System.Windows.Forms.Padding(2);
             this.txtbox_soru.Multiline = true;
             this.txtbox_soru.Name = "txtbox_soru";
             this.txtbox_soru.ReadOnly = true;
@@ -351,58 +351,62 @@ namespace Yazılım_yapımı_proje
             this.rdiobtn_D.AutoSize = true;
             this.rdiobtn_D.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rdiobtn_D.Location = new System.Drawing.Point(50, 414);
-            this.rdiobtn_D.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdiobtn_D.Margin = new System.Windows.Forms.Padding(2);
             this.rdiobtn_D.Name = "rdiobtn_D";
             this.rdiobtn_D.Size = new System.Drawing.Size(42, 23);
             this.rdiobtn_D.TabIndex = 9;
             this.rdiobtn_D.TabStop = true;
             this.rdiobtn_D.Text = "D)";
             this.rdiobtn_D.UseVisualStyleBackColor = true;
+            this.rdiobtn_D.CheckedChanged += new System.EventHandler(this.rdiobtn_D_CheckedChanged);
             // 
             // rdiobtn_C
             // 
             this.rdiobtn_C.AutoSize = true;
             this.rdiobtn_C.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rdiobtn_C.Location = new System.Drawing.Point(50, 378);
-            this.rdiobtn_C.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdiobtn_C.Margin = new System.Windows.Forms.Padding(2);
             this.rdiobtn_C.Name = "rdiobtn_C";
             this.rdiobtn_C.Size = new System.Drawing.Size(43, 23);
             this.rdiobtn_C.TabIndex = 8;
             this.rdiobtn_C.TabStop = true;
             this.rdiobtn_C.Text = "C)";
             this.rdiobtn_C.UseVisualStyleBackColor = true;
+            this.rdiobtn_C.CheckedChanged += new System.EventHandler(this.rdiobtn_C_CheckedChanged);
             // 
             // rdiobtn_B
             // 
             this.rdiobtn_B.AutoSize = true;
             this.rdiobtn_B.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rdiobtn_B.Location = new System.Drawing.Point(50, 338);
-            this.rdiobtn_B.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdiobtn_B.Margin = new System.Windows.Forms.Padding(2);
             this.rdiobtn_B.Name = "rdiobtn_B";
             this.rdiobtn_B.Size = new System.Drawing.Size(40, 23);
             this.rdiobtn_B.TabIndex = 7;
             this.rdiobtn_B.TabStop = true;
             this.rdiobtn_B.Text = "B)";
             this.rdiobtn_B.UseVisualStyleBackColor = true;
+            this.rdiobtn_B.CheckedChanged += new System.EventHandler(this.rdiobtn_B_CheckedChanged);
             // 
             // rdiobtn_A
             // 
             this.rdiobtn_A.AutoSize = true;
             this.rdiobtn_A.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rdiobtn_A.Location = new System.Drawing.Point(50, 297);
-            this.rdiobtn_A.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdiobtn_A.Margin = new System.Windows.Forms.Padding(2);
             this.rdiobtn_A.Name = "rdiobtn_A";
             this.rdiobtn_A.Size = new System.Drawing.Size(41, 23);
             this.rdiobtn_A.TabIndex = 6;
             this.rdiobtn_A.TabStop = true;
             this.rdiobtn_A.Text = "A)";
             this.rdiobtn_A.UseVisualStyleBackColor = true;
+            this.rdiobtn_A.CheckedChanged += new System.EventHandler(this.rdiobtn_A_CheckedChanged);
             // 
             // btn_sonrakiSoru
             // 
             this.btn_sonrakiSoru.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_sonrakiSoru.Location = new System.Drawing.Point(740, 453);
-            this.btn_sonrakiSoru.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sonrakiSoru.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sonrakiSoru.Name = "btn_sonrakiSoru";
             this.btn_sonrakiSoru.Size = new System.Drawing.Size(123, 41);
             this.btn_sonrakiSoru.TabIndex = 3;
@@ -414,7 +418,7 @@ namespace Yazılım_yapımı_proje
             // 
             this.picbox_soru.BackColor = System.Drawing.Color.Transparent;
             this.picbox_soru.Location = new System.Drawing.Point(551, 58);
-            this.picbox_soru.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picbox_soru.Margin = new System.Windows.Forms.Padding(2);
             this.picbox_soru.Name = "picbox_soru";
             this.picbox_soru.Size = new System.Drawing.Size(341, 187);
             this.picbox_soru.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -437,7 +441,7 @@ namespace Yazılım_yapımı_proje
             // 
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.Location = new System.Drawing.Point(470, 804);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 43);
             this.button1.TabIndex = 5;
@@ -456,7 +460,7 @@ namespace Yazılım_yapımı_proje
             this.Controls.Add(this.label6);
             this.Controls.Add(this.grpbx_sinavSorusu);
             this.Controls.Add(this.grpbx_sinavAlani);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Sinava_gir";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sinava_gir";
